@@ -16,10 +16,8 @@ func main(){
 	}
 }
 */
-
 //go里面的switch默认相当于每个case最后带有break，匹配成功后不会自动向下执行其他case，而是跳出整个switch
 //可以使用fallthrough强制执行后面的case代码
-/*
 func main(){
 	integer := 6
 	switch integer {
@@ -34,7 +32,7 @@ func main(){
 			fallthrough
 		case 7:
 			fmt.Println("The integer was <= 7")
-			fallthrough
+			//fallthrough //默认break
 		case 8:
 			fmt.Println("The integer was <= 8")
 			fallthrough
@@ -42,4 +40,3 @@ func main(){
 			fmt.Println("defaulf case")
 	}
 }
-*/
