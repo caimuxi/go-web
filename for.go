@@ -39,3 +39,18 @@ func main(){
 	}
 }
 */
+/*报错
+func main(){
+	for k,v:=range map {
+		fmt.Println("map's key:",k)
+		fmt.Println("map's val:",v)
+	}	
+}
+*/
+/*报错
+func main(){
+	for _, v:= range map{
+		fmt.Println("map's val:",v)
+	}	
+}
+*/
